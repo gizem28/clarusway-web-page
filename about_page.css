@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #35424A;
+    color: white;
+    border-bottom: #A9508B 4px solid;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px 0 1px 0;
+    height: 6em;
+    padding: 1.3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+span {
+    color: #A9508B;
+}
+
+.navbar__left {
+    font-size: 2.5em;
+}
+
+.navbar__right {
+    list-style-type: none;
+}
+
+.navbar__right li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding-top: 1em;
+}
+
+.active {
+    color: #A9508B;
+    text-decoration: none;
+    margin: 0.6em;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 0.6em;
+}
+
+.navbar__right li a:hover {
+    opacity: 0.5;
+}
+
+.subscribe {
+    background-color: #35424A;
+    color: white;
+    height: 5.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+}
+
+.subscribe__header {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+.subscribe__mail input {
+    height: 2em;
+    font-size: 1.2em;
+    margin-right: 0.3em;
+    width: 380px;
+    border-radius: 5px;
+}
+
+.subscribe__mail button {
+    background-color: orangered;
+    font-size: 0.9em;
+    border: none;
+    color: white;
+    padding: 0.9em;
+    border-radius: 5px;
+}
+.subscribe__mail button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.info {
+    font-size: 1.2em;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.info1 {
+    margin-bottom: 1.5em;
+}
+
+h4 {
+    margin-bottom: 0.8em;
+    color: #35424A;
+    font-size: 1.7em;
+}
+
+.info2 {
+    background-color: #35424A;
+    color: white;
+    height: auto;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 2em 5px;
+}
+
+.info3 {
+    margin: 0em 2em;
+    width: 70%;
+    background-color: #35424A;
+    height: 400px;
+    padding: 0em 1em;
+    color: white;
+    border-radius: 5px;
+}
+
+.empty {
+    height: 255px;
+}
+
+.footer {
+    bottom: 0em;
+    text-align: center;
+    color: gainsboro;
+    background-color: #35424A;
+    padding: 1em;
+    width: 100vw;
+}
+
+.footer p {
+    margin: 0.5em;
+}

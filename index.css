@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #35424A;
+    color: white;
+    border-bottom: #A9508B 4px solid;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px 0 1px 0;
+    height: 6em;
+    padding: 1.3em;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+span {
+    color: #A9508B;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.navbar__right {
+   list-style-type: none;
+}
+
+.navbar__right li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding-top: 1em;
+}
+.active{
+    color:#A9508B;
+    text-decoration: none;
+    margin: 0.6em;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 0.6em;
+}
+.navbar__right li a:hover{
+    opacity: 0.5;
+}
+
+.header{
+    background-image: url(./images/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 98.88vw;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding-top: 13em;
+}
+h1{
+    font-size: 3em;
+}
+.header p{
+    font-size:1.5em ;
+}
+.subscribe{
+    background-color: #35424A;
+    color: white;
+    height: 6em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+}
+.subscribe__header{
+margin-right: auto;
+font-size: 2em;
+}
+.subscribe__mail input{
+height: 2.3em;
+font-size: 1.2em; 
+ margin-right: 0.3em;
+ width: 380px;
+ border-radius: 5px;
+ padding: 5px;
+} 
+.subscribe__mail button{
+background-color:orangered;
+font-size: 1em;
+border: none;
+color: white;
+padding: 0.8em;
+border-radius: 5px;
+}
+.subscribe__mail button:hover{
+    opacity: 0.6;
+}
+
+.info{
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    padding: 2em;
+}
+.html, .css, .graphic{
+    font-size: 1.2rem;
+}
+.info img{
+   max-height: 100px; 
+   height: 90%;
+   padding-bottom: 1em;
+}
+.info h4{
+    font-size: 1.7em;
+    color: #35424A;
+    text-shadow: 1px 0.01em;
+}
+.info p{
+    padding: 1em;
+    font-size: 1em;
+}
+footer{
+    text-align: center;
+    color:gainsboro;
+    background-color: #35424A; 
+    padding: 1em;
+    width: 100%;
+}
+
+footer p{
+    margin: 0.5em;
+}
+
+@media only screen and(max-width:900px) {
+    h2{
+font-size: 10px;
+    }
+}
